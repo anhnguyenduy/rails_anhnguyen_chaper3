@@ -27,3 +27,7 @@ group :production do
   gem 'pg', '0.12.2'
 end
 gem 'bootstrap-sass','2.1'
+group :development do
+gem 'annotate','2.5.0'
+end
+gem 'bcrypt-ruby', '3.0.1'
